@@ -23,10 +23,8 @@
     <script>
         function sendEmail(){
                     Email.send({
-            Host : "smtp.gmail.com",
-            Username : "@gmail.com",
-            Password : "password",
-            To : 'them@website.com',
+            secureToken:"70753de-3411-41f4-8c3d-54081",
+            To : 'farhana.cse.bd@gmail.com',
             From : document.getElementById("email").value,
             Subject : "New Contact Form Enquiry",
             Body : "Name:" + document.getElementById("name").value 
